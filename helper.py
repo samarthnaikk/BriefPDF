@@ -1,7 +1,7 @@
 import google.generativeai as genai
 
 def response(text):
-    genai.configure(api_key="AIzaSyCJ-HFEUIWZe8drZl8KoeGSw8YeytDtNBA")
+    genai.configure(api_key="your_key")
     model = genai.GenerativeModel("gemini-1.5-flash")
 
     prompt = f"""
